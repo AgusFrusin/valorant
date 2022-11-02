@@ -1,3 +1,4 @@
+/* navegador-index */
 .video {
     z-index: -1;
     background-position: center;
@@ -5,7 +6,7 @@
     width: 100%;
     position: relative;
 }
-
+/* boton - formulario */
 .btn-primary {
     width: 70px;
     height: 40px;
