@@ -1,25 +1,77 @@
+/* body */
+.container-fluid {
+    padding: 0px;
+}
+
+
 /* navegador-index */
+.items {
+    background-color: black;
+}
+
+.colornegro {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.videovlt {
+    background-color: black;
+    z-index: -3;
+}
 .video {
-    z-index: -1;
+    z-index: 1;
     background-position: center;
     height: 60vh;
     width: 100%;
     position: relative;
 }
-/* boton - formulario */
-.btn-primary {
-    width: 70px;
-    height: 40px;
-    color: black;
-    background: linear-gradient(to right, #fdc830, #f37335);
-    border: 0;
-    border-radius: 5px;
-    transition: all 0.5s;
+
+.valorant {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* index parrafo */
+.parrafoprincipal {
+    padding-left: 30px;
 }
 
-.btn-primary:hover {
-    width: 75px;
-    height: 45px;
-    color: black;
+.imageninicio {
+    padding-right: 30px;
 }
 
+/* boton formulario */
+.btn-primary{
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  b.btn-primary:active {
+    transform: translateY(-1px);
+  }
+
+  /* footer */
+  .redessociales{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  footer {
+    color: white;
+    background-color: black;
+  }
