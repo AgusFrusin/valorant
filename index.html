@@ -11,11 +11,10 @@
     <!-- MI CSS -->
     <link rel="stylesheet" href="css/estilo.css">
 </head>
-<body class="container-fluid">    
+
+<!-- nav -->
+<body class="container-fluid"> 
     <header class="encabezado">  
-        <video class="video-bg" autoplay muted loop>
-            <source src="img/videovlt.mp4" type="video/mp4">
-        </video>
         <nav class="navbar navbar-expand-md navbar-expand-lg bg-transparent">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,52 +22,54 @@
               </button>
               <div class="row collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-black">
-                    <li class="col-xl-2 col-md-2"><img src="img/logo.png" alt="Logo" height="80px"></li>
-                    <li class="col-xl-2 col-md-2"><a href="index.html" class="barraNavActiva">Inicio</a></li>       
-                    <li class="col-xl-2 col-md-2"><a href="pages/agentes.html" class="barraNav">Agentes</a></li>
-                    <li class="col-xl-2 col-md-2"><a href="pages/mapas.html" class="barraNav">Mapas</a></li>
-                    <li class="col-xl-2 col-md-2"><a href="pages/nuestracomunidad.html" class="barraNav">Nuestra Comunidad</a></li>
-                    <li class="col-xl-2 col-md-2"><a href="pages/contactanos.html" class="barraNav">Contáctanos</a></li></div>
+                    <li class="col-xl-2 col-md-2 d-none d-xl-block d-md-block d-flex justify-content-xl-evenly"><img src="img/logo.png" alt="Logo" height="80px"></li>
+                    <li class="col-xl-2 col-md-2 d-flex justify-content-xl-evenly"><a href="index.html" class="barraNavActiva">Inicio</a></li>       
+                    <li class="col-xl-2 col-md-2 d-flex justify-content-xl-evenly"><a href="pages/agentes.html" class="barraNav">Agentes</a></li>
+                    <li class="col-xl-2 col-md-2 d-flex justify-content-xl-evenly"><a href="pages/mapas.html" class="barraNav">Mapas</a></li>
+                    <li class="col-xl-2 col-md-2 d-flex justify-content-xl-evenly"><a href="pages/nuestracomunidad.html" class="barraNav">Nuestra Comunidad</a></li>
+                    <li class="col-xl-2 col-md-2 d-flex justify-content-xl-evenly"><a href="pages/contactanos.html" class="barraNav">Contáctanos</a></li></div>
                 </ul>
               </div>
             </div>
           </nav>
-        <!-- <nav>
-            <ul class="navTodo">
-                <li class="nav1"><img src="img/logo.png" alt="Logo" height="80px"></li>
-                <li class="nav1"><a href="index.html" class="barraNavActiva">Inicio</a></li>       
-                <li class="nav1"><a href="pages/agentes.html" class="barraNav">Agentes</a></li>
-                <li class="nav1"><a href="pages/mapas.html" class="barraNav">Mapas</a></li>
-                <li class="nav1"><a href="pages/nuestracomunidad.html" class="barraNav">Nuestra Comunidad</a></li>
-                <li class="nav1"><a href="pages/contactanos.html" class="barraNav">Contáctanos</a></li></div>
-            </ul>
-        </nav>    -->
-        <h1 class="text-center">VALORANT</h1>
     </header>
-    
-    <main>
-        <h2 class="tituloInicio">LORE: Historia de Valorant</h2>
-    <div class="inicioLorem">
-        <p class="inicioLoremP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni natus porro, possimus facilis ea molestias et sunt aspernatur iusto obcaecati similique at illo repellendus. Dolore nesciunt ullam harum aliquam quae!
-        Incidunt, repudiandae aperiam. Rerum excepturi, exercitationem minus aperiam ea reprehenderit odio ipsum facilis repellat voluptatem laboriosam et molestiae temporibus quae velit libero natus debitis, expedita autem amet impedit tempora! Eius?
-        Itaque, earum. Nihil praesentium, deserunt, quo qui voluptates consequuntur ut repellat cum aperiam dolorum laborum repellendus a nemo, molestias nam tenetur laudantium aut! Modi facilis eligendi eos vero nam earum.
-        </p>
+    <!-- video -->
 
-        <img src="img/imageninicio.png" alt="foto lore valorant" width="700">
+    <div class="row">
+        <video class="video col-xl-12 col-sm-12" autoplay muted loop>
+            <source src="img/videovlt.mp4" type="video/mp4">
+        </video> 
+        <h1 class="text-center">VALORANT</h1>
     </div>
 
+    <!-- MAIN -->
+    
+    <main class="row">
+        <div class="col-xl-6 col-sm-12">
+            <h2 class=" tituloInicio">LORE: Historia de Valorant</h2>
+            <p class="inicioLoremP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni natus porro, possimus facilis ea molestias et sunt aspernatur iusto obcaecati similique at illo repellendus. Dolore nesciunt ullam harum aliquam quae!
+                Incidunt, repudiandae aperiam. Rerum excepturi, exercitationem minus aperiam ea reprehenderit odio ipsum facilis repellat voluptatem laboriosam et molestiae temporibus quae velit libero natus debitis, expedita autem amet impedit tempora! Eius?
+                Itaque, earum. Nihil praesentium, deserunt, quo qui voluptates consequuntur ut repellat cum aperiam dolorum laborum repellendus a nemo, molestias nam tenetur laudantium aut! Modi facilis eligendi eos vero nam earum.
+            </p>
+        </div>
+        <div class="col-xl-6 d-none d-xl-block">
+            <img src="img/imageninicio.png" alt="foto lore valorant" width="100%">
+        </div>
     </main>
+    
+<!-- footer -->
+    
+     <footer>
+        <h3 class="text-center">Siguenos en :</h3>
 
-    <footer>
         <div class="row">
-        <h3 class="text-center col-xl-12 col-sm-12">Siguenos en :</h3>
-        <a class="text-center col-xl-3 col-sm-12" href="https://www.youtube.com/c/PlayVALORANT" target="_blank"class="fooTer">YouTube</a>
-        <a class="text-center col-xl-3 col-sm-12" href="https://twitter.com/VALORANTes" target="_blank"class="fooTer">Twitter</a>
-        <a class="text-center col-xl-3 col-sm-12" href="https://www.twitch.tv/valorant" target="_blank"class="fooTer">Twitch</a>
-        <a class="text-center col-xl-3 col-sm-12" href="https://www.instagram.com/playvalorantofficial/?hl=es" target="_blank"class="fooTer">Instagram</a>
+        <a class="col-xl-3 col-sm-12 text-center" href="https://www.youtube.com/c/PlayVALORANT" target="_blank"class="fooTer">YouTube</a>
+        <a class="col-xl-3 col-sm-12 text-center" href="https://twitter.com/VALORANTes" target="_blank"class="fooTer">Twitter</a>
+        <a class="col-xl-3 col-sm-12 text-center" href="https://www.twitch.tv/valorant" target="_blank"class="fooTer">Twitch</a>
+        <a class="col-xl-3 col-sm-12 text-center" href="https://www.instagram.com/playvalorantofficial/?hl=es" target="_blank"class="fooTer">Instagram</a>
         <h3 class="text-center">TODOS LOS DERECHOS RESERVADOS</h3>
         <h3 class="text-center">Sitio web creado por Agustina Frusin</h3>
-    </div>
+        </div>
     </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

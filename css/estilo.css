@@ -41,34 +41,20 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* header {
-    position: relative;
-    background-color: rgba(218, 113, 113, 0.552); 
-    padding: 15px 0px;
-}
-.video-bg {
-    position: absolute;
-    width: 50%;
-    height: 60vh ;
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 105%;
-    min-height: 100%;
+.video {
     z-index: -1;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    
 
-}    
+
+
+
+}
+
+/* 
 .navTodo{
     display: flex;
     justify-content:flex-end;
