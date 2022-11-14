@@ -9,11 +9,11 @@ h3 {
   a {
     font-family: 'Barlow Condensed', sans-serif;
     text-decoration: none;
-    color: white;
+    color: $color-letras ;
     font-size: x-large;
   
     &:hover {
-      color: rgba(255, 0, 0, 0.521);
+      color:  $color-bordo ;
     }
   }
   
@@ -78,7 +78,7 @@ h3 {
   .fotoagente {
     width: 400px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid $fondos-negros;
     border-radius: 10px;
     margin: 10px;
     padding: 8px;
@@ -98,19 +98,19 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2.5px;
     font-weight: 500;
-    color: #000;
-    background-color: #fff;
+    color: $fondos-negros;
+    background-color: $color-letras;
     border: none;
     border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 15px $fondos-negros;
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
   
     &:hover {
-      background-color: #23c483;
-      box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-      color: #fff;
+      background-color: $color-clarobordo;
+      box-shadow: 0px 15px 20px  $color-bordo;
+      color: $color-letras;
       transform: translateY(-7px);
     }
   }
@@ -127,6 +127,6 @@ h3 {
   }
   
   footer {
-    color: white;
-    background-color: black;
+    color: $color-letras;
+    background-color: $fondos-negros;
   }
