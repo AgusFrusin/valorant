@@ -1,0 +1,17 @@
+/*  HEADER  */
+
+@mixin anclas {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: none;
+    color: $color-letras ;
+    font-size: x-large;
+}
+
+a {
+    @include anclas ;
+    transition: all 0.2s ease;
+        &:hover {
+         color:  $color-bordo ;
+        }
+  }
+  

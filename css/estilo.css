@@ -7,16 +7,6 @@ h3 {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-a {
-  font-family: "Barlow Condensed", sans-serif;
-  text-decoration: none;
-  color: white;
-  font-size: x-large;
-}
-a:hover {
-  color: rgba(255, 0, 0, 0.521);
-}
-
 /* body */
 .container-fluid {
   padding: 0px;
@@ -121,6 +111,18 @@ b.btn-primary:active {
 footer {
   color: white;
   background-color: black;
+}
+
+/*  HEADER  */
+a {
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  transition: all 0.2s ease;
+}
+a:hover {
+  color: rgba(255, 0, 0, 0.521);
 }
 
 /*# sourceMappingURL=estilo.css.map */
