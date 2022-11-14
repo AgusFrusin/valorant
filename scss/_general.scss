@@ -1,0 +1,132 @@
+h1, h2 {
+    font-family: 'Anton', sans-serif;
+  }
+
+h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+
+  a {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+  
+    &:hover {
+      color: rgba(255, 0, 0, 0.521);
+    }
+  }
+  
+  /* body */
+  
+  .container-fluid {
+    padding: 0px;
+  }
+  
+  /* navegador-index */
+  
+  .items {
+    background-color: black;
+    margin: 0px;
+    padding: 1rem;
+  }
+  
+  .botonNavbar {
+    margin: 5px;
+    background-color: rgba(56, 56, 56, 0.753);
+  }
+  
+  .colornegro {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .videovlt {
+    background-color: black;
+    z-index: -3;
+  }
+  
+  .video {
+    z-index: 1;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  
+  .valorant {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  /* index parrafo */
+  
+  .parrafoprincipal {
+    padding-left: 30px;
+  }
+  
+  .imageninicio {
+    padding-right: 30px;
+  }
+  
+  /* imagenes en agentes */
+  
+  .fotosagentes {
+    justify-content: center;
+  }
+  
+  .fotoagente {
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 8px;
+    transition: all 0.5s;
+  
+    &:hover {
+      height: auto;
+      width: 415px;
+    }
+  }
+  
+  /* boton formulario */
+  
+  .btn-primary {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  
+    &:hover {
+      background-color: #23c483;
+      box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+      color: #fff;
+      transform: translateY(-7px);
+    }
+  }
+  
+  b.btn-primary:active {
+    transform: translateY(-1px);
+  }
+  
+  /* footer */
+  
+  .redessociales {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  footer {
+    color: white;
+    background-color: black;
+  }
