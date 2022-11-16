@@ -1,174 +1,179 @@
-h1, h2 {
-    font-family: 'Anton', sans-serif;
-  }
+h1,
+h2 {
+  font-family: 'Anton', sans-serif;
+}
 
 h3 {
-    font-family: 'Barlow Condensed', sans-serif;
-  }
+  font-family: 'Barlow Condensed', sans-serif;
+}
 
-  
-  /* body */
-  
-  .container-fluid {
-    padding: 0px;
-  }
 
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  /* navegador-index */
-  
-  .items {
-    background-color: black;
-    margin: 0px;
-    padding: 1rem;
-  }
-  
-  .botonNavbar {
-    margin: 5px;
-    background-color: rgba(56, 56, 56, 0.753);
-  }
-  
-  .colornegro {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  
-  .video {
-    z-index: 1;
-    background-position: center;
-    width: 100%;
-    position: relative;
-    padding: 0;
-  }
-  
-  .valorant {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  
-  /* index parrafo */
-  
-  .parrafoprincipal {
-    padding-left: 30px;
-  }
-  .tituloInicio {
-    padding: 2rem;
-    .inicioLorem {
-      width: auto;  
-      padding: 2rem;
+/* body */
 
-    }    
-  }
- 
-  
-  .imageninicio {
-    padding-right: 30px;
-  }
-  
-  /* imagenes en agentes */
-  
-  .fotosagentes {
-    justify-content: center;
-  }
-  
-  .fotoagente {
-    width: 400px;
+.container-fluid {
+  padding: 0px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* navegador-index */
+
+.items {
+  background-color: black;
+  margin: 0px;
+  padding: 1rem;
+}
+
+.botonNavbar {
+  margin: 5px;
+  background-color: rgba(56, 56, 56, 0.753);
+}
+
+.colornegro {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.video {
+  z-index: 1;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+.valorant {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* index parrafo */
+
+.parrafoprincipal {
+  padding-left: 30px;
+}
+
+.tituloInicio {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  box-shadow: 2px;
+}
+
+.inicioLorem {
+  padding: 2rem;
+
+}
+
+
+.imageninicio {
+  padding-right: 30px;
+}
+
+/* imagenes en agentes */
+
+.fotosagentes {
+  justify-content: center;
+}
+
+.fotoagente {
+  width: 400px;
+  height: auto;
+  border: 1px solid $fondos-negros;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 8px;
+  transition: all 0.5s;
+
+  &:hover {
     height: auto;
-    border: 1px solid $fondos-negros;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 8px;
-    transition: all 0.5s;
-  
-    &:hover {
-      height: auto;
-      width: 415px;
-    }
+    width: 415px;
   }
-  
-  /* boton formulario */
-  
-  .btn-primary {
-    padding: 1.3em 3em;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: $fondos-negros;
-    background-color: $color-letras;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px $fondos-negros;
-    transition: all 0.3s ease 0s;
-    cursor : pointer;
-    outline: none;
-    
-  
-    &:hover {
-      background-color: $color-clarobordo;
-      box-shadow: 0px 15px 20px  $color-bordo;
-      color: $color-letras;
-      transform: translateY(-7px);
-    }
-  }
-  
-  b.btn-primary:active {
-    transform: translateY(-1px);
-  }
-  /*  FOOTER  */
+}
 
-  footer {
-    width: 100%;
-    padding: 1rem 0px;
-    background-color: $fondos-negros;
-    background-size: cover;
-  }
-  
-  .container-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 50px auto;
-  }
-  
-  .box-footer {
-    flex-direction: row;
-    padding: 2rem;
-    justify-content: center;
-    text-align: center;
-    margin: -5rem auto;
-  
-    h2 {
-      margin-bottom: 10px;
-      color: $color-letras;
-      font-weight: 200;
-    }
-  
-    a {
-      color: $color-letras;
-      font-weight: 300;
-      margin: auto 10px;
-      text-decoration: none;
-  
-      &:hover {
-        opacity: 0.8;
-        color: $color-clarobordo;
-      }
-    }
-  }
-  
-  .copyright {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 1rem;  
+/* boton formulario */
 
-    h3 {
-      color: $color-letras;
-    }
-    
+.btn-primary {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: $fondos-negros;
+  background-color: $color-letras;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px $fondos-negros;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+
+
+  &:hover {
+    background-color: $color-clarobordo;
+    box-shadow: 0px 15px 20px $color-bordo;
+    color: $color-letras;
+    transform: translateY(-7px);
   }
+}
+
+b.btn-primary:active {
+  transform: translateY(-1px);
+}
+
+/*  FOOTER  */
+
+footer {
+  width: 100%;
+  padding: 1rem 0px;
+  background-color: $fondos-negros;
+  background-size: cover;
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.box-footer {
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin: -5rem auto;
+
+  h2 {
+    margin-bottom: 10px;
+    color: $color-letras;
+    font-weight: 200;
+  }
+
+  a {
+    color: $color-letras;
+    font-weight: 300;
+    margin: auto 10px;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.8;
+      color: $color-clarobordo;
+    }
+  }
+}
+
+.copyright {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1rem;
+
+  h3 {
+    color: $color-letras;
+  }
+
+}

@@ -1,17 +1,184 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 5 | @import "medias";
- *   |         ^^^^^^^^
- *   '
- *   scss\estilo.scss 5:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 5 \2502  @import \"medias\";\d\a   \2502          ^^^^^^^^\a   \2575 \a   scss\\estilo.scss 5:9  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed&display=swap");
+h1,
+h2 {
+  font-family: "Anton", sans-serif;
 }
+
+h3 {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+/* body */
+.container-fluid {
+  padding: 0px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* navegador-index */
+.items {
+  background-color: black;
+  margin: 0px;
+  padding: 1rem;
+}
+
+.botonNavbar {
+  margin: 5px;
+  background-color: rgba(56, 56, 56, 0.753);
+}
+
+.colornegro {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.video {
+  z-index: 1;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+.valorant {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* index parrafo */
+.parrafoprincipal {
+  padding-left: 30px;
+}
+
+.tituloInicio {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  box-shadow: 2px;
+}
+
+.inicioLorem {
+  padding: 2rem;
+}
+
+.imageninicio {
+  padding-right: 30px;
+}
+
+/* imagenes en agentes */
+.fotosagentes {
+  justify-content: center;
+}
+
+.fotoagente {
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 8px;
+  transition: all 0.5s;
+}
+.fotoagente:hover {
+  height: auto;
+  width: 415px;
+}
+
+/* boton formulario */
+.btn-primary {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px black;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.btn-primary:hover {
+  background-color: rgba(253, 56, 56, 0.582);
+  box-shadow: 0px 15px 20px rgba(255, 0, 0, 0.521);
+  color: white;
+  transform: translateY(-7px);
+}
+
+b.btn-primary:active {
+  transform: translateY(-1px);
+}
+
+/*  FOOTER  */
+footer {
+  width: 100%;
+  padding: 1rem 0px;
+  background-color: black;
+  background-size: cover;
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.box-footer {
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin: -5rem auto;
+}
+.box-footer h2 {
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 200;
+}
+.box-footer a {
+  color: white;
+  font-weight: 300;
+  margin: auto 10px;
+  text-decoration: none;
+}
+.box-footer a:hover {
+  opacity: 0.8;
+  color: rgba(253, 56, 56, 0.582);
+}
+
+.copyright {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1rem;
+}
+.copyright h3 {
+  color: white;
+}
+
+/*  HEADER  */
+a {
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  transition: all 0.2s ease;
+}
+a:hover {
+  color: rgba(255, 0, 0, 0.521);
+}
+
+.achicar {
+  width: 50%;
+  height: auto;
+  padding: 3rem;
+  align-items: center;
+}
+
+/*# sourceMappingURL=estilo.css.map */
