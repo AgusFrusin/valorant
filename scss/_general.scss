@@ -12,6 +12,11 @@ h3 {
   .container-fluid {
     padding: 0px;
   }
+
+  .row {
+    margin-left: none !important;
+    margin-right: none !important;
+  }
   
   /* navegador-index */
   
@@ -32,16 +37,17 @@ h3 {
   }
   
   .videovlt {
-    background-color: black;
-    z-index: -3;
+    // background-color: black;
+    // z-index: -3;
   }
   
   .video {
     z-index: 1;
     background-position: center;
-    height: auto;
+    // // height: auto;
     width: 100%;
     position: relative;
+    padding: 0;
   }
   
   .valorant {
@@ -53,6 +59,11 @@ h3 {
   
   .parrafoprincipal {
     padding-left: 30px;
+  }
+
+  .inicioLoremP {
+    width: auto;
+
   }
   
   .imageninicio {

@@ -12,6 +12,11 @@ h3 {
   padding: 0px;
 }
 
+.row {
+  margin-left: none !important;
+  margin-right: none !important;
+}
+
 /* navegador-index */
 .items {
   background-color: black;
@@ -29,17 +34,12 @@ h3 {
   padding-bottom: 0;
 }
 
-.videovlt {
-  background-color: black;
-  z-index: -3;
-}
-
 .video {
   z-index: 1;
   background-position: center;
-  height: auto;
   width: 100%;
   position: relative;
+  padding: 0;
 }
 
 .valorant {
@@ -50,6 +50,10 @@ h3 {
 /* index parrafo */
 .parrafoprincipal {
   padding-left: 30px;
+}
+
+.inicioLoremP {
+  width: auto;
 }
 
 .imageninicio {
@@ -123,6 +127,14 @@ a {
 }
 a:hover {
   color: rgba(255, 0, 0, 0.521);
+}
+
+@media (max-width: 767px) {
+  .video {
+    max-width: 90%;
+    margin: auto;
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
