@@ -110,15 +110,53 @@ b.btn-primary:active {
   transform: translateY(-1px);
 }
 
-/* footer */
-.redessociales {
-  padding-top: 15px;
-  padding-bottom: 15px;
+/*  FOOTER  */
+footer {
+  width: 100%;
+  padding: 1rem 0px;
+  background-color: black;
+  background-size: cover;
 }
 
-footer {
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.box-footer {
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin: -5rem auto;
+}
+.box-footer h2 {
+  margin-bottom: 10px;
   color: white;
-  background-color: black;
+  font-weight: 200;
+}
+.box-footer a {
+  color: white;
+  font-weight: 300;
+  margin: auto 10px;
+  text-decoration: none;
+}
+.box-footer a:hover {
+  opacity: 0.8;
+  color: rgba(253, 56, 56, 0.582);
+}
+
+.copyright {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1rem;
+}
+.copyright h3 {
+  color: white;
 }
 
 /*  HEADER  */
@@ -139,6 +177,12 @@ a:hover {
     margin: auto;
     padding: 0;
   }
+}
+.achicar {
+  width: 50%;
+  height: auto;
+  padding: 3rem;
+  align-items: center;
 }
 
 /*# sourceMappingURL=estilo.css.map */

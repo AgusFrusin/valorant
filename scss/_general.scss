@@ -118,15 +118,57 @@ h3 {
   b.btn-primary:active {
     transform: translateY(-1px);
   }
-  
-  /* footer */
-  
-  .redessociales {
-    padding-top: 15px;
-    padding-bottom: 15px;
+  /*  FOOTER  */
+
+  footer {
+    width: 100%;
+    padding: 1rem 0px;
+    background-color: $fondos-negros;
+    background-size: cover;
   }
   
-  footer {
-    color: $color-letras;
-    background-color: $fondos-negros;
+  .container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+  
+  .box-footer {
+    flex-direction: row;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin: -5rem auto;
+  
+    h2 {
+      margin-bottom: 10px;
+      color: $color-letras;
+      font-weight: 200;
+    }
+  
+    a {
+      color: $color-letras;
+      font-weight: 300;
+      margin: auto 10px;
+      text-decoration: none;
+  
+      &:hover {
+        opacity: 0.8;
+        color: $color-clarobordo;
+      }
+    }
+  }
+  
+  .copyright {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;  
+
+    h3 {
+      color: $color-letras;
+    }
+    
   }
