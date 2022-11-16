@@ -1,0 +1,11 @@
+.iframe {
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+    .iframe {
+        width: 90%;
+        height: 250px;
+    }
+}

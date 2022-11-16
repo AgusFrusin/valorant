@@ -59,7 +59,7 @@ h3 {
 }
 
 .inicioLorem {
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .imageninicio {
@@ -178,6 +178,18 @@ a:hover {
   height: auto;
   padding: 3rem;
   align-items: center;
+}
+
+.iframe {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+  .iframe {
+    width: 90%;
+    height: 250px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
