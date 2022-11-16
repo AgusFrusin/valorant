@@ -14,8 +14,8 @@ h3 {
   }
 
   .row {
-    margin-left: none !important;
-    margin-right: none !important;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   /* navegador-index */
@@ -36,15 +36,9 @@ h3 {
     padding-bottom: 0;
   }
   
-  .videovlt {
-    // background-color: black;
-    // z-index: -3;
-  }
-  
   .video {
     z-index: 1;
     background-position: center;
-    // // height: auto;
     width: 100%;
     position: relative;
     padding: 0;
@@ -60,11 +54,15 @@ h3 {
   .parrafoprincipal {
     padding-left: 30px;
   }
+  .tituloInicio {
+    padding: 2rem;
+    .inicioLorem {
+      width: auto;  
+      padding: 2rem;
 
-  .inicioLoremP {
-    width: auto;
-
+    }    
   }
+ 
   
   .imageninicio {
     padding-right: 30px;

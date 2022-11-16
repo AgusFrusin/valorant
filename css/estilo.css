@@ -13,8 +13,8 @@ h3 {
 }
 
 .row {
-  margin-left: none !important;
-  margin-right: none !important;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* navegador-index */
@@ -52,8 +52,12 @@ h3 {
   padding-left: 30px;
 }
 
-.inicioLoremP {
+.tituloInicio {
+  padding: 2rem;
+}
+.tituloInicio .inicioLorem {
   width: auto;
+  padding: 2rem;
 }
 
 .imageninicio {
@@ -130,8 +134,8 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-  .video {
-    max-width: 90%;
+  .videovlt {
+    max-width: 100%;
     margin: auto;
     padding: 0;
   }
