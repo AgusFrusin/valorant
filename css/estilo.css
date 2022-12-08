@@ -188,4 +188,12 @@ a:hover {
   box-shadow: 3px 3px 5px 3px gray;
 }
 
+@media (max-width: 767px) {
+  .fotoAgente {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+}
+
 /*# sourceMappingURL=estilo.css.map */
