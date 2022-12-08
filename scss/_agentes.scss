@@ -1,0 +1,15 @@
+.fotoAgente {
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+    border-radius: 2%;
+    max-width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+    filter: grayscale(80%);
+
+    &:hover {
+        transform: scale(1.03);
+        filter: grayscale(0%);
+        box-shadow: 3px 3px 5px 3px gray;
+    }
+}

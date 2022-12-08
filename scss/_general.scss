@@ -12,6 +12,7 @@ h3 {
 
 .container-fluid {
   padding: 0px;
+  overflow-x: hidden;
 }
 
 .row {
@@ -71,26 +72,6 @@ h3 {
   padding-right: 30px;
 }
 
-/* imagenes en agentes */
-
-.fotosagentes {
-  justify-content: center;
-}
-
-.fotoagente {
-  width: 400px;
-  height: auto;
-  border: 1px solid $fondos-negros;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 8px;
-  transition: all 0.5s;
-
-  &:hover {
-    height: auto;
-    width: 415px;
-  }
-}
 
 /* boton formulario */
 

@@ -11,6 +11,7 @@ h3 {
 /* body */
 .container-fluid {
   padding: 0px;
+  overflow-x: hidden;
 }
 
 .row {
@@ -64,25 +65,6 @@ h3 {
 
 .imageninicio {
   padding-right: 30px;
-}
-
-/* imagenes en agentes */
-.fotosagentes {
-  justify-content: center;
-}
-
-.fotoagente {
-  width: 400px;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 8px;
-  transition: all 0.5s;
-}
-.fotoagente:hover {
-  height: auto;
-  width: 415px;
 }
 
 /* boton formulario */
@@ -190,6 +172,20 @@ a:hover {
     width: 90%;
     height: 250px;
   }
+}
+.fotoAgente {
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+  border-radius: 2%;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  filter: grayscale(80%);
+}
+.fotoAgente:hover {
+  transform: scale(1.03);
+  filter: grayscale(0%);
+  box-shadow: 3px 3px 5px 3px gray;
 }
 
 /*# sourceMappingURL=estilo.css.map */
