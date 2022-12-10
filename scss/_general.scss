@@ -11,19 +11,20 @@ h3 {
 /* body */
 
 .container-fluid {
-  padding: 0px;
-  overflow-x: hidden;
+  padding: 0;
 }
 
 .row {
   margin-left: 0;
   margin-right: 0;
+  overflow: hidden;
+
 }
 
 /* navegador-index */
 
 .items {
-  background-color: black;
+  background-color: $fondos-negros;
   margin: 0px;
   padding: 1rem;
 }
@@ -72,8 +73,28 @@ h3 {
   padding-right: 30px;
 }
 
+/* BOTONES CARRUSEL */
+.botontesCaruusel {
+  .carousel-control-prev-icon {
+    padding: 1.1rem;
+    background-color: $fondos-negros;
+    border-radius: 50%;
+  }
+
+  .carousel-control-next-icon {
+    padding: 1.1rem;
+    background-color: $fondos-negros;
+    border-radius: 50%;
+
+  }
+}
+
+
 
 /* boton formulario */
+.sombra {
+  padding: 1rem;
+}
 
 .btn-primary {
   padding: 1.3em 3em;

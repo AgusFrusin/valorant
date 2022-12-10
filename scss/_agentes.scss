@@ -4,12 +4,13 @@
     border-radius: 2%;
     max-width: 100%;
     height: auto;
+    padding-bottom: 1rem;
     transition: all 0.3s ease;
     filter: grayscale(80%);
 
     &:hover {
-        transform: scale(1.03);
+        transform: scale(1.01);
         filter: grayscale(0%);
-        box-shadow: 3px 3px 5px 3px gray;
+        box-shadow: 2px 2px 4px 2px gray;
     }
 }
